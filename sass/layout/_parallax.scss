@@ -1,0 +1,24 @@
+.main {
+  position: relative;
+  z-index: 1;
+  background-color: var(--color-white);
+}
+
+.parallax-wrapper {
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: relative;
+}
+
+/* Media queries for parallax wrapper  */
+@media screen and (min-width: 55em) {
+  .parallax-wrapper {
+    height: 100%;
+    width: calc(100% - (var(--header-height) * 2));
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0 auto;
+  }
+}

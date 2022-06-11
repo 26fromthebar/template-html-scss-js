@@ -1,0 +1,110 @@
+/* Utility classes start */
+.container-center,
+.container-center-tiny,
+.container-center-small,
+.container-center-large,
+.container-right,
+.container-left {
+  margin-inline: auto;
+  min-width: 18.75rem;
+  max-width: 120rem;
+  width: 94%;
+}
+
+.container-center,
+.container-center-small,
+.container-center-large,
+.container-right,
+.container-left {
+  width: 94%;
+}
+
+@media screen and (min-width: 40em) {
+  .container-center,
+  .container-center-tiny,
+  .container-center-small,
+  .container-right,
+  .container-left {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 65em) {
+  .container-center {
+    width: 90%;
+  }
+
+  .container-center-tiny {
+    width: 70%;
+  }
+
+  .container-center-small {
+    width: 80%;
+  }
+
+  .container-right {
+    width: 90%;
+    margin-inline: auto 0;
+  }
+
+  .container-left {
+    width: 90%;
+    margin-inline: auto 0;
+  }
+}
+
+@media screen and (min-width: 160em) {
+  .container-center,
+  .container-center-tiny,
+  .container-center-small,
+  .container-right,
+  .container-left {
+    margin-inline: auto;
+  }
+}
+
+// Classes for margins
+.mt-sm {
+  margin-top: var(--responsive-1) !important;
+}
+
+.mt-md {
+  margin-top: var(--responsive-3) !important;
+}
+
+.mt-lg {
+  margin-top: var(--responsive-6) !important;
+}
+
+.mb-sm {
+  margin-bottom: var(--responsive-1) !important;
+}
+
+.mb-md {
+  margin-bottom: var(--responsive-3) !important;
+}
+
+.mb-lg {
+  margin-bottom: var(--responsive-6) !important;
+}
+
+// General utility classes
+.hide {
+  opacity: 0 !important;
+  visibility: hidden !important;
+}
+
+.show {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.appear {
+  display: block !important;
+}
+
+.disappear {
+  display: none !important;
+}
+
+/* Utility classes end */
