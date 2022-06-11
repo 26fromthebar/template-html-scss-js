@@ -21,7 +21,7 @@
   --ff-secondary: 'Roboto', sans-serif;
   --ff-tertiary: 'Roboto', sans-serif;
 
-  /* Responsive font-size variables */
+  /* Responsive font-size variables (360px - 1920px)*/
   --fs-placeholder: clamp(0.875rem, 0.5rem + 1.5vw, 2rem);
   --fs-14: clamp(0.75rem, 0.715rem + 0.16vw, 0.875rem);
   --fs-16: clamp(0.9375rem, 0.9231rem + 0.0641vw, 1rem);
@@ -35,7 +35,7 @@
   --fs-56: clamp(1.75rem, 1.3462rem + 1.7949vw, 3.5rem);
   --fs-64: clamp(1.75rem, 1.2308rem + 2.3077vw, 4rem);
 
-  /* Other CSS variables*/
+  /* Other CSS variables (360px - 1920px) */
   --responsive-1: clamp(0.5rem, 0.3846rem + 0.5128vw, 1rem);
   --responsive-2: clamp(1rem, 0.7692rem + 1.0256vw, 2rem);
   --responsive-3: clamp(1.5rem, 1.1538rem + 1.5385vw, 3rem);
@@ -50,7 +50,7 @@
   --responsive-25: clamp(12.5rem, 9.6154rem + 12.8205vw, 25rem);
   --responsive-30: clamp(15rem, 11.5385rem + 15.3846vw, 30rem);
 
-  /* Elements height variables */
+  /* Elements height variables (360px - 1920px) */
   --header-height: clamp(3.5rem, 3.2rem + 1.5vw, 5rem);
 
   /* Breakpoints for media queries */
